@@ -104,17 +104,3 @@ def menu():
     else : print("Thank You")
     
 menu()  
-        
-    
-    
-          
-
-
-
-
-
-    
-  
-          
-    
-    

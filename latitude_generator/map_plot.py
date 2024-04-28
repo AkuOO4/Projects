@@ -6,7 +6,7 @@ def mapPlot():
     df = pd.read_csv('cordinates.csv')
     map = folium.Map(location=[10.024736517586764, 76.30792709032183],zoom_start=15)
 
-    for p in points:
+    for p in df:
         folium.Marker(location=[p.x,p.y]).add_to(map)
 
     map.save('map.html')

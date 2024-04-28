@@ -12,4 +12,5 @@ for name in form_name.values:
     font = ImageFont.truetype("arial.ttf", 25) #set font + size
     d.text(location, name[0], fill=text_color,font=font) #write text
     im.save("certificates/certificate_"+str(name[0])+".png") #save as pdf
+    
     i+=1
